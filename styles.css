@@ -1,0 +1,74 @@
+body {
+  
+  
+}
+.img-prof{
+  height:100px;
+  width:100px;
+  background-color: gray;
+  margin: 10px 50px;
+  border-radius: 50%;
+  
+}
+.menu .satu {
+  height: 300px;
+  width: 300px;
+  
+  margin-left: 2px;
+
+}
+.namaku{
+  max-width:280px;
+  
+}
+ul{
+  
+  max-width: 180px;
+  
+}
+li{
+  margin:5px;
+  
+}
+.menu .satuSatu {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.menu .dua {
+  height: 100%;
+  margin: 0;
+  max-width: 680px;
+  width: 100%;
+  margin-left: 2px;
+  background-color: #00f;
+}
+.menu .satu .study{
+  font-weight: bold;
+}
+.menu .tiga {
+  height: 100px;
+  width: 100px;
+  margin-left: 2px;
+  
+}
+.menu {
+  display: flex;
+  
+  height: 100px;
+}
+footer{
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+}
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+footer img{
+  width: 125px;
+}
