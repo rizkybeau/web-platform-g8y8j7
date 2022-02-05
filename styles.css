@@ -1,25 +1,64 @@
-body {
-  
-  
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+body{
+	margin:0;
+	color:#fff;
+	background-color:#000;
 }
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.header-right {
+  float: right;
+  margin-right: -25px;
+	
+	margin-top:-70px;
+}
+span{
+	color:blue;
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+	
+}
+
 .img-prof{
   height:100px;
   width:100px;
   background-color: gray;
   margin: 10px 50px;
   border-radius: 50%;
-  
+  margin-top:100px;
 }
 .menu .satu {
   height: 300px;
   width: 300px;
-  
+  position:fixed;
   margin-left: 2px;
-
+	opacity: 1;
 }
-.namaku{
-  max-width:280px;
-  
+.logo {
+  width: 300px;
+  margin-top: 20px;
+	font-size:30px;
+	font-family:'Festive', cursive;
 }
 ul{
   
@@ -30,19 +69,15 @@ li{
   margin:5px;
   
 }
-.menu .satuSatu {
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
-  
-}
+
 .menu .dua {
-  height: 100%;
-  margin: 0;
+  margin-top:100px;
   max-width: 680px;
-  width: 100%;
-  margin-left: 2px;
-  background-color: #00f;
+  margin-left: 300px;
+	
+}
+.menu .dua p{
+	padding:20px 10px;
 }
 .menu .satu .study{
   font-weight: bold;
@@ -55,15 +90,12 @@ li{
 }
 .menu {
   display: flex;
-  
-  height: 100px;
 }
 footer{
   width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-  position: absolute;
-  bottom: 0;
+  margin-left:30px;
+  font-size:12px;
+  max-width:130px;
 }
 footer p {
   color: #b3aeb5;
@@ -71,4 +103,15 @@ footer p {
 }
 footer img{
   width: 125px;
+}
+
+@media only screen and (max-width: 390px){
+  .menu .satu{
+    display: none;
+  }
+  .menu .dua{
+    margin: 100px auto;
+    
+  }
+  
 }
